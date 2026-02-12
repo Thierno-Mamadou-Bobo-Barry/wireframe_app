@@ -1,16 +1,21 @@
 # wireframe_app
 
-A new Flutter project.
+## Description
+Application Flutter réalisée pour reproduire un wireframe de type “Profil Facebook”.
+Elle contient 3 écrans accessibles via une barre de navigation en bas :
+- Profil
+- Posts
+- Feed
 
-## Getting Started
+## Widgets / Concepts utilisés
+- Container, Row, Column, Image, Text
+- Stack + Positioned (pour cover + avatar)
+- BoxDecoration (coins arrondis, ombres, bordures)
+- Widgets réutilisables : PostCard, FriendAvatar
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Structure du projet
+- lib/screens : profile_page.dart, posts_page.dart, feed_page.dart
+- lib/widgets : post_card.dart, friend_avatar.dart
+- lib/data : sample_data.dart
+- assets/images : images (cover, avatar, posts, amis)
+- screenshots : captures d’écran
